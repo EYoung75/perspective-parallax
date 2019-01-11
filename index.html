@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Paralax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="contentContainer">
+                <div class="intro">
+                    Welcome, to
+                </div>
+                <div class="name">
+                    Rocky Mountain National Park
+                </div>
+                <!-- <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate
+                    optio doloribus, iste neque id laudantium dolorum ipsam laboriosam, accusantium ex quo saepe vero,
+                    adipisci
+                    quos expedita numquam officia a tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores
+                    optio, adipisci deserunt sequi qui sed incidunt consequatur suscipit rem reprehenderit laudantium,
+                    harum
+                    reiciendis. Sint impedit vel est nisi totam fugit? Lorem
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(".background").mousemove(function (e) {
+            var moveX = (e.pageX * -1 / 3)
+            var moveY = (e.pageY * -1 / 3)
+            $(this).css("background-position", moveX + "px " + moveY + "px")
+        })
+    </script>
+
+</body>
+
+</html>

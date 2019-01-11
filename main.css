@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Thasadith");
+body {
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Thasadith";
+}
+body .container {
+  overflow: hidden;
+  height: 100vh;
+}
+body .container .background {
+  height: 130%;
+  width: 150%;
+  background-image: url("https://lh3.googleusercontent.com/5ATguV41BHHBaMmsZEkbKZuKoZEXRhh_RLhvBJ6dcy9kW_ITfQUW4ARATR7BeUpGRrcrI5b9vqfS6-zXKagX59nMBo3POUd1FTGVWDlY2r51MYtsQHnY0H-CgPkOdxJukc-faR9GLA=w2400");
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-position-x: 90px;
+  background-position-y: 90px;
+}
+body .container .contentContainer {
+  position: relative;
+  top: 10%;
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+}
+body .container .contentContainer .intro {
+  font-size: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 75%;
+}
+body .container .contentContainer .name {
+  font-size: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 80%;
+  font-weight: 300;
+}
+body .container .contentContainer .description {
+  font-size: 2rem;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  bottom: 75%;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */
